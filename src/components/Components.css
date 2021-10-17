@@ -1,0 +1,163 @@
+.header {
+    background-color: black;
+    color: white;
+}
+
+.header-searchbar {
+    display: flex;
+    justify-content: right;
+}
+
+.header-searchbar input {
+    width: 60%;
+    padding: 5px 10px;
+    background: #eee;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    position: relative;
+}
+
+.header-logo-link {
+    color: white;
+    text-decoration: none;
+}
+
+.header-searchbar i {
+    line-height: 34px;
+    font-size: 26px;
+    padding-left: 10px;
+}
+
+.header-searchbar i:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.login-page {
+    background: #eee;
+    height: 100vh;
+    overflow: auto;
+}
+
+.login-form-container {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+    background: white;
+    padding: 50px 25px;
+    margin-bottom: 40px;
+}
+
+.form-text-input {
+    width: 90%;
+    padding: 6px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #b9b2b2;
+}
+
+.form-submit-btn {
+    margin-top: 30px;
+    width: 90%;
+    padding: 6px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #b9b2b2;
+}
+
+.form-radio-holder {
+    width: 90%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.form-radio-group {
+    float: left;
+    width: 20px;
+    margin-top: 6px;
+}
+
+.form-group-label {
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 1%;
+    margin-top: 25px;
+}
+
+.form-radio-label {
+    margin-right: 10%;
+    margin-left: 3%;
+}
+
+.fund-header {
+    overflow: auto;
+    margin-top: 15px;
+}
+
+.fund-list {
+    background: #eee;
+    padding: 20px;
+    border-radius: 11px;
+    margin-top: 25px;
+    font-weight: 500;
+    display: flex;
+}
+
+.fund-icon {
+    line-height: 46px;
+    text-align: right;
+}
+
+.fund-name {
+    padding: 10px;
+}
+
+.switch-form-label {
+    text-align: right;
+    padding-right: 6%;
+    margin-top: 2%;
+}
+
+.search-dropdown {
+    position: absolute;
+    width: 98%;
+    background: white;
+    padding: 10px;
+    right: 1%;
+    color: black;
+    max-height: 300px;
+    top: 52px;
+    border-radius: 5px;
+    overflow-y: auto;
+    z-index: 11111;
+    box-shadow: 5px 8px 12px 6px #685b5b80;
+}
+
+.search-dropdown li {
+    list-style: none;
+    cursor: pointer;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+.search-dropdown li:hover {
+    opacity: 0.5;
+}
+
+.fund-discription-holder {
+    width: 86%;
+    background: #eee;
+    padding: 20px;
+    border-radius: 11px;
+    margin: 0 auto;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+.fund-list:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
